@@ -57,9 +57,20 @@ height: 60vh;
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 50px;
-  top: 50%;
-  opacity: 1;
-  transform: translateY(50%);
+    width: 30px;
+  top: 90%;
+  opacity: 5;
+  background-color: rgb(208, 208, 212);
+  
+}
+.carousel-control-prev{
+    left: 95%;
 }
 
+@media screen (max-width: 500px){
+  .container{
+    display: grid;
+    grid-column: column-reverse;
+       
+}
+}
