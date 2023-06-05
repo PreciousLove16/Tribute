@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Kumbh+Sans:wght@400;700&family=Poppins:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: inter, sans-serif;
+    align-items: center;
+    min-height: 80vh;
+    background: url(/images/pattern-curve.svg,), url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 30vw;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.carousel-item{
+    margin-top: 50px;
+}
+
+.carousel-item p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #333;
+    background: url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .carousel-item img{
+height: 60vh;
+  }
+  .name-title{
+    display: flex;
+    flex-direction: row;
+  }
+  .carousel-item img {
+    border-radius: 10px;
+  }
+  .carousel-item .name{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(2, 2, 41);
+}
+.carousel-item .title{
+    font-size: 20px;
+    font-weight: 250;
+    color: rgb(148, 135, 161);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+  top: 50%;
+  opacity: 1;
+  transform: translateY(50%);
+}
+
